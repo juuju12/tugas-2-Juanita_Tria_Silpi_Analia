@@ -139,7 +139,6 @@ function cariNama(keyword) {
 }
 function hapusData () {
     // tambahkan fungsi hapus data data disini 
-    function hapusData() {
     console.log("Data yang tersedia:");
     console.table(databaseKontak);
     readline.question("Masukkan indeks data yang ingin dihapus: ", (indeks) => {
